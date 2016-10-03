@@ -36,9 +36,6 @@ coverage.xml
 # Translations
 *.mo
 
-# Mr Developer
-.mr.developer.cfg
-.project
 .pydevproject
 
 # Rope
@@ -49,3 +46,7 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+branches.yaml
+odoo/external-src/**/*
+odoo/src

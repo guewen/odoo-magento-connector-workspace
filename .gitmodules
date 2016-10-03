@@ -1,0 +1,3 @@
+[submodule "docker-magento"]
+	path = docker-magento
+	url = git@github.com:guewen/docker-magento.git

@@ -1,0 +1,11 @@
+migration:
+  options:
+    install_command: odoo
+  versions:
+    - version: 10.0.0
+      operations:
+        post:
+          - anthem songs.install.post::main
+      addons:
+        upgrade:
+          - connector_magento

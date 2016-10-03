@@ -1,0 +1,66 @@
+./odoo/src:
+  remotes:
+    oca: git@github.com:OCA/OCB.git
+    <user>: git@github.com:<user>/odoo.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/bank-payment:
+  remotes:
+    oca: git@github.com:OCA/bank-payment.git
+    <user>: git@github.com:<user>/bank-payment.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/partner-contact:
+  remotes:
+    oca: git@github.com:OCA/partner-contact.git
+    <user>: git@github.com:<user>/partner-contact.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/sale-workflow:
+  remotes:
+    oca: git@github.com:OCA/sale-workflow.git
+    <user>: git@github.com:<user>/sale-workflow.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/server-tools:
+  remotes:
+    oca: git@github.com:OCA/server-tools.git
+    <user>: git@github.com:<user>/server-tools.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/queue:
+  remotes:
+    oca: git@github.com:OCA/queue.git
+    <user>: git@github.com:<user>/queue.git
+  merges:
+    - oca 10.0
+  target: <user> dev
+./odoo/external-src/connector:
+  remotes:
+    oca: git@github.com:OCA/connector.git
+    <user>: git@github.com:<user>/connector.git
+  merges:
+    - oca 10.0
+    - oca refs/pull/231/head
+  target: <user> dev
+./odoo/external-src/connector-ecommerce:
+  remotes:
+    oca: git@github.com:OCA/connector-ecommerce.git
+    <user>: git@github.com:<user>/connector-ecommerce.git
+  merges:
+    - oca 10.0
+    - oca refs/pull/41/head
+  target: <user> dev
+./odoo/external-src/connector-magento:
+  remotes:
+    oca: git@github.com:OCA/connector-magento.git
+    <user>: git@github.com:<user>/connector-magento.git
+  merges:
+    - oca 10.0
+    - oca refs/pull/255/head
+  target: <user> dev
