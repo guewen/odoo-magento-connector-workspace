@@ -26,6 +26,13 @@
   merges:
     - oca 10.0
   target: <user> dev
+./odoo/external-src/product-attribute:
+  remotes:
+    oca: git@github.com:OCA/product-attribute.git
+    <user>: git@github.com:<user>/product-attribute.git
+  merges:
+    - oca 10.0
+  target: <user> dev
 ./odoo/external-src/server-tools:
   remotes:
     oca: git@github.com:OCA/server-tools.git

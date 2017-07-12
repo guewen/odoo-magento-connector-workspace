@@ -28,6 +28,7 @@ ENV ADDONS_PATH="/opt/odoo/src/addons, \
   /opt/odoo/external-src/server-tools, \
   /opt/odoo/external-src/bank-payment, \
   /opt/odoo/external-src/queue, \
+  /opt/odoo/external-src/product-attribute, \
   /opt/odoo/external-src/partner-contact" \
   LIMIT_TIME_CPU=86400 \
   LIMIT_TIME_REAL=86400 \
