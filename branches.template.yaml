@@ -39,6 +39,8 @@
     <user>: git@github.com:<user>/server-tools.git
   merges:
     - oca 10.0
+      # [10.0] add new module to manage technical user on company
+    - oca refs/pull/858/head
   target: <user> dev
 ./odoo/external-src/queue:
   remotes:
