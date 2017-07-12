@@ -57,6 +57,7 @@ services:
       - mariadb:db
       - memcached:cache
     environment:
+      - HTTP_HOST=magento
       - DB_ENV_USER=user
       - DB_ENV_PASS=password
       - DB_PORT_3306_TCP_PORT=3306

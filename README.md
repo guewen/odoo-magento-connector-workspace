@@ -26,6 +26,16 @@ $ docker-compose build --pull
 
 Image docs: https://github.com/camptocamp/docker-odoo-project
 
+## Magento
+
+You must add this line in `/etc/hosts/`:
+
+```
+127.0.0.1 magento
+```
+
+So magento is reachable from both Odoo and your computer on `http://magento`.
+
 ## Run 
 
 Start everything:
@@ -47,16 +57,6 @@ Start Odoo in foreground:
 
 ```
 docker-compose run --rm -p 8069:8069 odoo odoo --workers=0
-
-```
-
-## Magento Base URL
-
-When you start Magento, it's base url will probably be wrong.
-You can add `127.0.0.1 magento` in `/etc/hosts` of your computer, and fix the base url with:
-
-```
-doco run --rm -e HTTP_HOST=magento magento php /var/www/seturl.php
 
 ```
 
